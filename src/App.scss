@@ -1,0 +1,18 @@
+body {
+    background-color: #636363cc;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 900px;
+    height: 700px;
+}

@@ -1,0 +1,37 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    button {
+        width: 100px;
+        height: 40px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.turns-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 33.33px;
+    
+    @media screen and (max-width: 930px) {
+        grid-template-columns: 0.1fr 0.1fr 0.1fr;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    @media screen and (max-width: 830px) {
+        grid-template-columns: 0.1fr 0.1fr;
+        justify-content: center;
+    }
+}
