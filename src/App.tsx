@@ -1,4 +1,4 @@
-import './App.scss';
+import "./App.scss"
 import Cards from './components/Cards/Cards';
 
 const App = () => {
